@@ -274,3 +274,55 @@ background: rgba(255, 76, 30, 0.05);
  .target-container-3 .link2{
     color: black;
  }
+
+
+ /* support style */
+.support-section{
+    width: 90%;
+    height: 280px;
+    margin: 0 auto;
+    /* border: 2px solid red; */
+    border-radius: 10px;
+}
+.support-section{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+    background-image: url(../assets/handshake.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    /* border: 2px dashed gray; */
+    background-size: cover;
+    
+}
+.support-section h1{
+    padding-left: 200px;
+    color: rgb(255, 255, 255);
+}
+ .support-section p{
+    margin-top: 30px;
+    color: rgb(255, 255, 255);
+    opacity: 0.7;
+    font-size: 14px;
+
+ }
+ .support-section input{
+    margin-top: 40px;
+    width: 548px;
+height: 57px;
+box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 8px;
+padding: 10px;
+background: rgb(255, 255, 255);
+ }
+
+ .support-section button{
+    width: 100px;
+    height: 57px;
+    border-radius: 8px;
+
+background: rgb(255, 255, 255);
+ }
