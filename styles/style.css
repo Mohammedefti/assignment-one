@@ -1,13 +1,13 @@
 /* font styles */
-@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 body{
-    font-family: "Azeret Mono", monospace;
+    font-family:    "Inter", sans-serif;
+
 
 }
 .bannner-section-container{
@@ -49,6 +49,7 @@ body{
     height: 55px;
     color:white ;
     border-radius: 8px;
+    
     
 
 background: rgb(13, 19, 33);
@@ -307,6 +308,7 @@ background: rgba(255, 76, 30, 0.05);
     color: rgb(255, 255, 255);
     opacity: 0.7;
     font-size: 14px;
+    margin-left: 60px;
 
  }
  .support-section input{
