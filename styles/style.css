@@ -39,8 +39,13 @@ body{
 
     
 }
-.banner-content h1 ,.banner-content p{ 
+.banner-content h1 { 
     margin-bottom: 40px;
+    
+}
+.banner-content p { 
+    margin-bottom: 40px;
+    opacity: 0.7;
     
 }
 
@@ -83,6 +88,10 @@ background: rgba(13, 19, 33, 0.02);
     margin-top: 60px;
 
 }
+.development-container p{
+    opacity: 0.7;
+    margin-top: 20px;
+}
 
 .container-1, .container-3{
     width: 90%;
@@ -104,12 +113,14 @@ background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 
     height: 250px;
 }
 
+
 .text-container p,
 .text-container2 p,
 .text-container3 p{
     margin-top: 40px;
     margin-bottom: 40px;
     /* text-align: left;s */
+    opacity: 0.6;
 }
 .text-container .btn, .text-container2 button,
 .text-container3 button{
@@ -160,6 +171,7 @@ background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 
 .inspiration-title p{
     margin-top: 20px;
     margin-bottom: 30px;
+    opacity: 0.6;
 }
 .inspiration-video{
     width: 100%;
@@ -203,6 +215,10 @@ padding: 15px;
 .target-title h1{
     margin-bottom: 20px;
 }
+.target-title p{
+    /* margin-bottom: 20px; */
+    opacity: 0.6;
+}
 
 .target-container{
     width: 100%;
@@ -231,6 +247,7 @@ background: rgba(255, 76, 30, 0.05);
     margin-top: 15px;
     margin-bottom: 20px;
     color: rgb(13, 19, 33);
+    opacity: 0.6;
  }
   
  .target-container-1 .link{
@@ -253,6 +270,7 @@ background: rgba(255, 76, 30, 0.05);
         margin-top: 15px;
         margin-bottom: 20px;
         color: rgb(13, 19, 33);
+        opacity: 0.6;
      }
       
      .target-container-2 .link2{
@@ -275,6 +293,7 @@ background: rgba(255, 76, 30, 0.05);
     margin-top: 15px;
     margin-bottom: 20px;
     color: rgb(13, 19, 33);
+    opacity: 0.6;
  }
   
  .target-container-3 .link2{
@@ -330,6 +349,8 @@ background: rgb(255, 255, 255);
     width: 100px;
     height: 57px;
     border-radius: 8px;
+    font-weight: 700px;
+    font-size: 16px;
 
 background: rgb(255, 255, 255);
  }
