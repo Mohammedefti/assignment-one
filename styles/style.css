@@ -149,6 +149,7 @@ background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 
     justify-content: center;
     align-items: center;
     margin: 0 auto;
+    text-align: center;
 }
 .inspiration-title p{
     margin-top: 20px;
@@ -169,3 +170,107 @@ padding: 15px;
     height: 100%;
     width: 100%;
 }
+
+/* target style */
+
+.target{
+    width: 90%;
+    height: 396px;
+    margin: 0 auto;
+    padding-top: 10px;
+    /* border: 2px solid red; */
+    margin-top: 80px;
+    margin-bottom: 80px;
+    /* background-color: aqua; */
+}
+.target-title{
+    width: 90%;
+    margin: 0 auto;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 28px;
+}
+.target-title h1{
+    margin-bottom: 20px;
+}
+
+.target-container{
+    width: 100%;
+    height: 282px;
+    /* border: 2px solid red; */
+    display: flex;
+    gap: 10px;
+
+
+}
+
+.target-container-1{
+    width: 33%;
+    height: 280px;
+    /* border: 2px solid red; */
+    border-radius: 8px;
+    padding: 25px;
+background: rgba(255, 76, 30, 0.05);
+}
+ .target-container-1  h1{
+    margin-top: 15px;
+    margin-bottom: 20px;
+ }
+  
+ .target-container-1  p{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: rgb(13, 19, 33);
+ }
+  
+ .target-container-1 .link{
+    color: black;
+ }
+
+.target-container-2{
+    width: 33%;
+    height: 280px;
+    /* border: 2px solid red; */
+    border-radius: 8px;
+    padding: 25px;
+    background: rgba(0, 76, 232, 0.05);}
+    .target-container-2  h1{
+        margin-top: 15px;
+        margin-bottom: 20px;
+     }
+      
+     .target-container-2  p{
+        margin-top: 15px;
+        margin-bottom: 20px;
+        color: rgb(13, 19, 33);
+     }
+      
+     .target-container-2 .link2{
+        color: black;
+     }
+.target-container-3{
+    width: 33%;
+    height: 280px;
+    /* border: 2px solid red; */
+    border-radius: 8px;
+    padding: 25px;
+    background: rgba(255, 223, 0, 0.05);
+}
+.target-container-3  h1{
+    margin-top: 15px;
+    margin-bottom: 20px;
+ }
+  
+ .target-container-3  p{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: rgb(13, 19, 33);
+ }
+  
+ .target-container-3 .link2{
+    color: black;
+ }
